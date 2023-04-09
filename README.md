@@ -1,2 +1,13 @@
-# Carter-Discord-Boilerplate
-This script connects your discord bot to your Carter agent, enabling AI communication in your servers!
+Carter API - Connect your Carter agent to your Discord bot!
+
+This program is an extract from my own personal smart-home AI system, which uses both Carter and Sanware NLP to function.
+
+This program allows you to connect your Discord bot to your Carter agent, enabling cross-platform communication.
+
+You will need your Discord bot token and your Carter agent token to then insert into the bot.py file, you'll also need nextcord installed.
+
+MIT License, feel free to do whatever you want with this. It's a simple program, but Carter is created by Huw Prosser, who did the real proper work in this! Go check it out! https://www.carterlabs.ai/
+
+Developed by TheMechanic57 at Sanware Developments.
+
+Jack Franklin
