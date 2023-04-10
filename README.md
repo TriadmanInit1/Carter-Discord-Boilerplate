@@ -8,6 +8,8 @@ You will need your Discord bot token and your Carter agent token to then insert 
 
 MIT License, feel free to do whatever you want with this. It's a simple program, but Carter is created by Huw Prosser, who did the real proper work in this! Go check it out! https://www.carterlabs.ai/
 
+If there are any issues, please do feel free to tell me. I did program this while intensely drunk.
+
 Developed by TheMechanic57 at Sanware Developments.
 
 Jack Franklin
