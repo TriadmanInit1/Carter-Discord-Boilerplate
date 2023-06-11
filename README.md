@@ -1,8 +1,5 @@
 Carter API - Connect your Carter agent to your Discord bot!
 
-** AS OF 11TH JUNE 2023, this repo is no longer maintained by me. Please consider changing to the forked version maintained by Sanware collectively**
-** https://github.com/Sanware/Carter-Discord-Boilerplate.git **
-
 This program is an extract from my own personal smart-home AI system, which uses both Carter and Sanware NLP to function.
 
 This program allows you to connect your Discord bot to your Carter agent, enabling cross-platform communication.
