@@ -10,6 +10,4 @@ MIT License, feel free to do whatever you want with this. It's a simple program,
 
 If there are any issues, please do feel free to tell me. I did program this while intensely drunk.
 
-Developed by TheMechanic57 at Sanware Developments.
-
-Jack Franklin
+Developed and created by Cipher at Sanware.
