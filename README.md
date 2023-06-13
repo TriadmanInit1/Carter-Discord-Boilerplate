@@ -1,6 +1,4 @@
-Carter API - Connect your Carter agent to your Discord bot!
-
-This program is an extract from my own personal smart-home AI system, which uses both Carter and Sanware NLP to function.
+## Carter-Discord API Interface - Connect your Carter agent to your Discord bot!
 
 This program allows you to connect your Discord bot to your Carter agent, enabling cross-platform communication.
 
