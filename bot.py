@@ -7,13 +7,21 @@
 import os
 import nextcord as discord
 from carter import *
+from dotenv import load_dotenv
 
 intents = discord.Intents.all()
 client = discord.Client(intents=intents)
 
-APIkey = "REPLACE THIS WITH YOUR CARTER AGENT'S API."
-RawUIName = "REPLACE THIS WITH THE NAME OF YOUR CARTER AGENT."
-DiscordAPI = "REPLACE THIS WITH YOUR DISCORD BOT'S API. GET IT FROM DISCORD DEVELOPER WEBSITE."
+# Load API keys and UIName from .env
+
+load_dotenv()
+
+APIkey = os.getenv("CARTER_API_KEY")
+
+DiscordAPI = os.getenv("DISCORD_API_KEY")
+
+RawUIName = os.getenv("UIName")
+
 
 # Program
 
@@ -30,14 +38,12 @@ async def on_message(message):
     UIName = RawUIName.lower()
 
     if UIName in sentence:
-        SendToCarter(sentence, User, APIkey)
-        with open('CarterResponse.txt') as f:
-            ResponseOutput = f.read()
+        ResponseOutput = SendToCarter(sentence, User, APIkey)
 
         print(message.content)
-        await message.channel.send(f"{ResponseOutput}")
+        await message.reply(f"{ResponseOutput}")
         print(ResponseOutput)
-        os.remove("CarterResponse.txt")
+
     else:
         pass
 

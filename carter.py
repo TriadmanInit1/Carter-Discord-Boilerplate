@@ -21,6 +21,4 @@ def SendToCarter(sentence, User, APIkey):
     FullResponse = Response["text"]
     ResponseOutput = FullResponse
 
-    f = open("CarterResponse.txt", "w+")
-    f.write(f"{ResponseOutput}")
-    f.close()
+    return ResponseOutput
